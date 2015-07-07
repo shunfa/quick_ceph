@@ -1,0 +1,28 @@
+[global]
+        auth cluster required = none
+        auth service required = none
+        auth client required = none
+        filestore_xattr_use_omap = true
+        osd pool default pg num = 250
+        osd pool default pgp num = 250
+
+[mon]
+#        debug mon = 10
+
+## mon-section
+## mon-section-end
+
+[mds]
+#       debug mds = 10
+       debug mds balancer = 20
+       debug mds log = 1
+       debug mds migrator = 1
+ 
+## mds-section
+## mds-section-end
+
+## osd-section
+## osd-section-end
+
+## radosgw-section
+## radosgw-section-end

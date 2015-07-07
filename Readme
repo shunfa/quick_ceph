@@ -1,0 +1,3 @@
+this folder must deploy to path as follow:
+
+/var/lib/ceph/poseidon/radosgw/sys/
